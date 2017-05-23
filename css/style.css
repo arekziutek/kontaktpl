@@ -5,14 +5,14 @@ body {
 }
 #contener {
     margin: 0 auto;
-    width: 60%;
+    width: 900px;
 
 
     
 }
 .kontaktna {
     
-    height: 50px;
+    height: 60px;
 }
 .kontaktna h1 {
     margin: 0 auto;
@@ -20,9 +20,9 @@ body {
     color: #ededed;
 }
 #full {
-    background-color: aqua;
-    width: 100hv;
-    margin: 0 auto;
+    margin:0 auto;
+    width: 900px;
+
     text-align: center;
 }
 
@@ -39,6 +39,28 @@ body {
     height: 200px;
     width: 200px;
     border: 1px solid #fff;
+}
+img {
+   opacity: 0.9;
+       /*-webkit-filter: grayscale(1);
+            filter: grayscale(1);*/
+}
+img:hover {
+    opacity: 1;
+}
+.gre {
+
+   background: url(../images/trawa.jpg);
+    height: 200px;
+    width: 200px;
+       -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+    
+}
+.gre:hover {
+   /* opacity: 1;*/
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
 }
 /* footer  */
 footer {
